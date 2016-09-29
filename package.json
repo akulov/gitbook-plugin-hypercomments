@@ -1,0 +1,29 @@
+{
+  "name": "gitbook-plugin-hc",
+  "description": "Hypercomments widget for gitbook",
+  "version": "1.0.0",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "comments",
+    "hypercomments",
+    "widget"
+  ],
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=2.3.0"
+  },
+  "gitbook": {
+    "properties": {
+      "wid": {
+        "type": "number",
+        "description": "Widget id",
+        "required": true
+      },
+      "lang": {
+        "type": "string",
+        "description": "Widget language. By defaults - current books language"
+      }
+    }
+  }
+}

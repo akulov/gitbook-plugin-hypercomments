@@ -25,5 +25,12 @@
         "description": "Widget language. By defaults - current books language"
       }
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akulov/gitbook-plugin-hypercomments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akulov/gitbook-plugin-hypercomments/issues"
   }
 }

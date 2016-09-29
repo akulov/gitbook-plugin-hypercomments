@@ -32,8 +32,8 @@ require(['gitbook', 'jquery'], function (gitbook, $) {
 
     // Init HC widget
     gitbook.events.on("start", function (e, config) {
-        widgetId = config.hc.wid;
-        lang = config.hc.lang || $('html').attr('lang');
+        widgetId = config.hypercomments.wid;
+        lang = config.hypercomments.lang || $('html').attr('lang');
 
         (function() {
             if("HC_LOAD_INIT" in window)return;
